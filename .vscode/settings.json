@@ -1,0 +1,24 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": false,
+        "editor.rulers": [
+            120
+        ],
+        "files.trimTrailingWhitespace": true,
+    },
+    "dart.lineLength": 120,
+    "dart.runPubGetOnPubspecChanges": "always",
+    "files.trimTrailingWhitespace": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": true,
+    "explorer.fileNesting.patterns": {
+        ".dart": "$(capture).g.dart, $(capture).freezed.dart",
+        "Gemfile": "Gemfile.lock",
+        "main.dart": "main_*.dart",
+    },
+    "dart.allowTestsOutsideTestFolder": true,
+    "dart.flutterTestAdditionalArgs": [
+        "--update-goldens"
+    ]
+}
